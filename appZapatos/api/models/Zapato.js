@@ -16,6 +16,10 @@ module.exports = {
       type: 'float',
 
     },
+    cantidad: {
+      type: 'integer',
+
+    },
     idUsuario:{
       model:'usuario'
     }
