@@ -14,6 +14,7 @@ import {MasterURLService} from "./services/master-url.service";
 import {UsuarioService} from "./services/usuario.service";
 import {VendedorService} from "./services/vendedor.service";
 import {ZapatoService} from "./services/zapato.service";
+import { EditarZapatoComponent } from './editar-zapato/editar-zapato.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {ZapatoService} from "./services/zapato.service";
     ListaZapatosComponent,
     ComprasComponent,
     VentasComponent,
-    CrearZapatoComponent
+    CrearZapatoComponent,
+    EditarZapatoComponent
   ],
   imports: [
     BrowserModule,

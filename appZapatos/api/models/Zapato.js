@@ -20,6 +20,9 @@ module.exports = {
       type: 'integer',
 
     },
+    imagen:{
+      type:'string'
+    },
     idUsuario:{
       model:'usuario'
     }
